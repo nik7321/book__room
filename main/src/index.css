@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+   
+    /* background-image: linear-gradient(#0BAB64,#3BB78F);
+     */
+     /* background-image: url("https://5.imimg.com/data5/HK/HO/MY-6362173/sunmica-laminate-sheet-500x500.jpg"); */
+    background-color: black;
+    background-position: 0;
+    height: 100vh;
+    margin: 0;
+    color: #f5f4f6;
+    font: 1.3rem Inconsolata,monospace;
+    text-shadow: 0 0 7px #f5f4f6
+
+}
+
+body:after {
+  opacity: .3;
+  background: -webkit-repeating-linear-gradient(bottom,#000,#000 2px,transparent,transparent 4px);
+  background: repeating-linear-gradient(0deg,#000,#000 2px,transparent,transparent 4px)
+}
+
+
+
+
+
+

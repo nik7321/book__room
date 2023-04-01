@@ -1,0 +1,107 @@
+.Form{
+
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    font: 1.3rem Inconsolata,monospace;
+    text-shadow: 0 0 7px #111;
+    border-radius: 0.5rem;
+    
+}
+
+div{
+    margin:1rem 0;
+}
+
+.Date, .Time, .Rooms, .Email{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.Bottom{
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+#email{
+    width:35vw;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    font-size: large;
+    font-weight: 400;
+    background-color: black;
+    color: #f5f4f6;
+    font: 1.3rem Inconsolata,monospace;
+    text-shadow: 0 0 7px #f5f4f6
+}
+
+#room,#roomNumber,#price{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    background-color: black;
+    color: #f5f4f6;
+    font: 1.3rem Inconsolata,monospace;
+    text-shadow: 0 0 7px #f5f4f6
+}
+
+#end, #start, #starttime, #endtime{
+    margin-right: 1rem;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    background-color: olive;
+    color: #f5f4f6;
+    font: 1.3rem Inconsolata,monospace;
+    text-shadow: 0 0 7px #f5f4f6
+}
+
+#book{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: black;
+    color: #f5f4f6;
+    font: 1.3rem Inconsolata,monospace;
+    text-shadow: 0 0 7px #f5f4f6
+}
+
+#book:hover{
+    background-color: black;
+    color: yellow;
+    font: 1.3rem Inconsolata,monospace;
+    text-shadow: 0 0 7px #f5f4f6
+}
+
+input{
+    background-color: black;
+    color: #f5f4f6;
+    font: 1.3rem Inconsolata,monospace;
+    text-shadow: 0 0 7px #f5f4f6
+
+}
+
+#estimate{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: black;
+    color: #f5f4f6;
+    font: 1.3rem Inconsolata,monospace;
+    text-shadow: 0 0 7px #f5f4f6
+}
